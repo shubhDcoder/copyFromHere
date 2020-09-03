@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="793.0" prefWidth="1136.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="793.0" prefWidth="1136.0" style="-fx-border-color: #2262c6;">
+         <top>
+            <Pane prefHeight="98.0" prefWidth="1136.0" style="-fx-background-color: #fff; -fx-background-radius: 0 30 0 0;" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="4.0" prefHeight="98.0" prefWidth="1130.0" spacing="20.0">
+                     <children>
+                        <Pane prefHeight="68.0" prefWidth="29.0" />
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/drive-brand.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Google Drive" textFill="#2262c6">
+                           <font>
+                              <Font name="JetBrains Mono Regular" size="22.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Label>
+                        <Pane prefHeight="98.0" prefWidth="50.0" />
+                        <TextField prefHeight="28.0" prefWidth="380.0" promptText="Search Drive" styleClass="button2" stylesheets="@../resource/css/fullPackStyling.css">
+                           <HBox.margin>
+                              <Insets top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Pane prefHeight="98.0" prefWidth="65.0" />
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/icons8-bell-30.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/icons8-question-mark-30.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/icons8-gear-30.png" />
+                           </image>
+                        </ImageView>
+                        <Pane prefHeight="98.0" prefWidth="58.0" />
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/icons8-menu-30.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children></Pane>
+         </top>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <top>
+                  <Pane prefHeight="246.0" prefWidth="856.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label layoutX="29.0" layoutY="29.0" text="My Drive" textFill="#2262c6">
+                           <font>
+                              <Font name="Segoe UI" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="29.0" layoutY="71.0" text="Quck Access" textFill="#626365">
+                           <font>
+                              <Font name="Segoe UI Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <HBox layoutY="115.0" prefHeight="131.0" prefWidth="841.0" spacing="20.0" style="-fx-background-color: #fff;">
+                           <children>
+                              <Pane prefHeight="131.0" prefWidth="155.0" style="-fx-background-color: #e8eff9; -fx-background-radius: 5 35 5 5;">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <children>
+                                    <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="28.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resource/icons/icons8-folder-30.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="27.0" layoutY="69.0" text="Business Agenda" textFill="#2262c6" />
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="131.0" prefWidth="155.0" style="-fx-background-color: #e8eff9; -fx-background-radius: 5 35 5 5;">
+                                 <children>
+                                    <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="28.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resource/icons/icons8-microsoft-word-30.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="27.0" layoutY="69.0" text="Project structure" textFill="#2262c6" />
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="131.0" prefWidth="155.0" style="-fx-background-color: #e8eff9; -fx-background-radius: 5 35 5 5;">
+                                 <children>
+                                    <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="28.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resource/icons/icons8-microsoft-powerpoint-30.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="27.0" layoutY="69.0" text="Training plan" textFill="#2262c6" />
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="131.0" prefWidth="155.0" style="-fx-background-color: #e8eff9; -fx-background-radius: 5 35 5 5;">
+                                 <children>
+                                    <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="28.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../resource/icons/icons8-microsoft-excel-30.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="27.0" layoutY="69.0" text="New joinee list" textFill="#2262c6" />
+                                 </children>
+                              </Pane>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></HBox>
+                     </children></Pane>
+               </top>
+               <left>
+                  <Pane prefHeight="475.0" prefWidth="841.0" styleClass="button1" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label layoutX="28.0" layoutY="22.0" text="ALL FILES" textFill="#626365">
+                           <font>
+                              <Font name="Segoe UI Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <ScrollPane layoutX="8.0" layoutY="51.0" style="-fx-border-color: #fff;">
+                           <content>
+                              <VBox prefHeight="389.0" prefWidth="828.0" spacing="10.0">
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="818.0" spacing="10.0" style="-fx-border-color: #fff;">
+                                       <children>
+                                          <Pane prefHeight="18.0" prefWidth="32.0" />
+                                          <Label alignment="TOP_LEFT" contentDisplay="CENTER" prefHeight="18.0" prefWidth="257.0" text="Name" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Last Modified" textFill="#626365" />
+                                          <Label text="Size" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="5.0" top="5.0" />
+                                       </padding>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="818.0" spacing="10.0">
+                                       <children>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-folder-30.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="18.0" prefWidth="257.0" text="Business Agenda" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Nov  11 2020, 11:16 PM" textFill="#626365" />
+                                          <Label text="20 MB" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-link-35.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-ellipsis-35.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="818.0" spacing="10.0">
+                                       <children>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-folder-30.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="18.0" prefWidth="257.0" text="Business Agenda" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Nov  11 2020, 11:16 PM" textFill="#626365" />
+                                          <Label text="20 MB" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-link-35.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-ellipsis-35.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="818.0" spacing="10.0">
+                                       <children>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-folder-30.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="18.0" prefWidth="257.0" text="Business Agenda" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Nov  11 2020, 11:16 PM" textFill="#626365" />
+                                          <Label text="20 MB" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-link-35.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-ellipsis-35.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="818.0" spacing="10.0">
+                                       <children>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-folder-30.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="18.0" prefWidth="257.0" text="Business Agenda" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Nov  11 2020, 11:16 PM" textFill="#626365" />
+                                          <Label text="20 MB" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-link-35.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-ellipsis-35.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="818.0" spacing="10.0">
+                                       <children>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-folder-30.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="18.0" prefWidth="257.0" text="Business Agenda" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Nov  11 2020, 11:16 PM" textFill="#626365" />
+                                          <Label text="20 MB" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-link-35.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-ellipsis-35.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="818.0" spacing="10.0">
+                                       <children>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-folder-30.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="18.0" prefWidth="257.0" text="Business Agenda" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Nov  11 2020, 11:16 PM" textFill="#626365" />
+                                          <Label text="20 MB" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-link-35.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-ellipsis-35.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="818.0" spacing="10.0">
+                                       <children>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-folder-30.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="18.0" prefWidth="257.0" text="Business Agenda" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Nov  11 2020, 11:16 PM" textFill="#626365" />
+                                          <Label text="20 MB" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-link-35.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-ellipsis-35.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="818.0" spacing="10.0">
+                                       <children>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-folder-30.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="18.0" prefWidth="257.0" text="Business Agenda" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Nov  11 2020, 11:16 PM" textFill="#626365" />
+                                          <Label text="20 MB" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-link-35.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-ellipsis-35.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="818.0" spacing="10.0">
+                                       <children>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-folder-30.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="18.0" prefWidth="257.0" text="Business Agenda" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Nov  11 2020, 11:16 PM" textFill="#626365" />
+                                          <Label text="20 MB" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-link-35.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-ellipsis-35.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="59.0" prefWidth="818.0" spacing="10.0">
+                                       <children>
+                                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-folder-30.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Label prefHeight="18.0" prefWidth="257.0" text="Business Agenda" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="54.0" />
+                                          <Label prefHeight="18.0" prefWidth="165.0" text="Nov  11 2020, 11:16 PM" textFill="#626365" />
+                                          <Label text="20 MB" textFill="#626365" />
+                                          <Pane prefHeight="59.0" prefWidth="84.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-link-35.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Pane prefHeight="59.0" prefWidth="20.0" />
+                                          <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../resource/icons/icons8-ellipsis-35.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </children></Pane>
+               </left>
+            </BorderPane>
+         </center>
+         <left>
+            <VBox alignment="TOP_CENTER" prefHeight="695.0" prefWidth="278.0" spacing="10.0" style="-fx-background-color: #2262C6; -fx-background-radius: 0 60 0 0;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane prefHeight="130.0" prefWidth="278.0">
+                     <children>
+                        <Button layoutX="50.0" layoutY="52.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="166.0" styleClass="button2" stylesheets="@../resource/css/fullPackStyling.css" text="Upload to Drive">
+                           <font>
+                              <Font name="Segoe UI Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children></Pane>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="28.0" prefWidth="168.0" styleClass="button1" stylesheets="@../resource/css/fullPackStyling.css" text="My Drive">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/drive-folder.png" />
+                           </image>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Segoe UI Bold" size="13.0" />
+                     </font></Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="28.0" prefWidth="168.0" styleClass="button1" stylesheets="@../resource/css/fullPackStyling.css" text="Computer">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/laptop-computer.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Segoe UI Bold" size="13.0" />
+                     </font></Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="28.0" prefWidth="168.0" styleClass="button1" stylesheets="@../resource/css/fullPackStyling.css" text="Shared with me">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/share.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Segoe UI Bold" size="13.0" />
+                     </font></Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="28.0" prefWidth="168.0" styleClass="button1" stylesheets="@../resource/css/fullPackStyling.css" text="Recent">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/time-machine.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Segoe UI Bold" size="13.0" />
+                     </font></Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="28.0" prefWidth="168.0" styleClass="button1" stylesheets="@../resource/css/fullPackStyling.css" text="Starred">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/star.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Segoe UI Bold" size="13.0" />
+                     </font></Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="28.0" prefWidth="168.0" styleClass="button1" stylesheets="@../resource/css/fullPackStyling.css" text="Trash">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/trash.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Segoe UI Bold" size="13.0" />
+                     </font></Button>
+                  <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="28.0" prefWidth="168.0" styleClass="button1" stylesheets="@../resource/css/fullPackStyling.css" text="Backups">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/icons/data-backup.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Segoe UI Bold" size="13.0" />
+                     </font></Button>
+                  <Pane prefHeight="327.0" prefWidth="278.0">
+                     <children>
+                        <Label layoutX="30.0" layoutY="14.0" text="Storage Details" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Bold" size="13.0" />
+                           </font></Label>
+                     </children>
+                  </Pane>
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
